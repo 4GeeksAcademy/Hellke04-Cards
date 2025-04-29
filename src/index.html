@@ -16,17 +16,30 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="d-flex justify-content-center m-2">
+      <div class="card d-flex" style="width: 200px; height: 300px;">
+        <div  class="container-fluid text-start">
+          <h2 class="icono"></h2>
+        </div>
+        <div class="container-fluid text-center mt-auto ">
+          <h1 class="valor"></h1>
+        </div>
+        <div  class="container-fluid text-end mt-auto">
+          <h2 class="icono"></h2>
+        </div>
       </div>
+      
+    </div>
+    <div class="d-flex justify-content-center m-2">
+      <label for="inputWidth" class="form-label m-2"><strong>Width: </strong></label>
+      <input type="number" class="form-control m-2" style="width: 100px;" id="inputWidth" placeholder="px">
+      
+      <label for="inputHeight" class="form-label m-2"><strong>Height: </strong></label>
+      <input type="number" class="form-control m-2" style="width: 100px;" id="inputHeight" placeholder="px">
+      <button  class="btn btn-secondary m-2"> Escalar </button>
+    </div>
+    <div class="d-flex justify-content-center m-2">
+      <button class="btn btn-secondary m-2"> Generar Carta </button>
     </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->

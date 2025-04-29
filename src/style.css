@@ -1,5 +1,14 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
 }
+
+.valor{
+    font-size: 100px;
+}
+
+.icono{
+    font-size: 50px;
+}
+
